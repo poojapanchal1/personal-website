@@ -14,7 +14,6 @@ function About() {
             <img src={AboutImg} alt="" className="about-img" />
             <div className="about-data">
                 <Info /> 
-               
                 <p className='about-description'>
                   Hello! I'm Pooja, a recent graduate from Rutgers University with a Bachelor of Science in Computer Science. 
                   I'm excited to embark on my journey in the tech industry and bring my passion for coding to life.
@@ -32,6 +31,8 @@ function About() {
                 <p className='about-description'>
                   Thank you for visiting my website. I'm excited about the possibilities that lie ahead, and I'm eager to connect with like-minded professionals and potential employers. If you'd like to chat or discuss potential opportunities, please feel free to contact me!
                 </p>
+
+                
                 <p className='about-description skills'><strong>Skills:</strong>
                 <ul>
                   <li>Languages listed above.</li>

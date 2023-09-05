@@ -134,6 +134,7 @@ function Portfolio() {
                                 Jams" with even more exciting features and functionalities.
                             </p>
                                 </p>
+                                
                             </div>
                         </div>
                     </div>
@@ -183,6 +184,9 @@ function Portfolio() {
                                         precision, and user experience reflects a dedication to technical excellence.
                                     </p>
                                 </p>
+                                <a href="https://github.com/poojapanchal1/PizzaMakerApplication" className='github-icon portfolio-button' target=''>
+                                    <i class="uil uil-github"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -237,6 +241,9 @@ function Portfolio() {
                                         resolution and valuable assistance.
                                     </p>    
                                 </p>
+                                <a href="https://github.com/poojapanchal1/mockEbaySite" className='github-icon portfolio-button' target=''>
+                                    <i class="uil uil-github"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
