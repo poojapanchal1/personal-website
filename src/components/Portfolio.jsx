@@ -139,58 +139,7 @@ function Portfolio() {
                         </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className='portfolio-content'>
-                    <video src={PizzaMakerVid} alt="" className="portfolio-img" controls />
-                    <div className="portfolio-data">
-                        <h3 className="portfolio-title">Pizza Maker Application</h3>
-                        <p className="portfolio-description">The Pizza Maker App is an Android application that demonstrates 
-                        advanced Java programming and object-oriented principles. Developed collaboratively, it emulates a 
-                        virtual pizzeria with sophisticated features, allowing users to customize pizzas, calculate order 
-                        costs, and place orders, with a distinct focus on user data management. View the video to see the 
-                        features in action!</p>
-                        <div className="button button--flex portfolio-button" onClick={()=> toggleTab(1)}>
-                            More info
-                            <i class="uil uil-arrow-right button-icon"></i>
-                        </div>
-                        <div className={toggleState === 1 ? "portfolio-modal active-modal" : "portfolio-modal"}>
-                            <div className="portfolio-modal-content">
-                                <i onClick={() => toggleTab(0)} className='uil uil-times portfolio-modal-close'> 
-                                </i>
-                                <h3 className="portfolio-modal-title"> More Information</h3>
-                                <p className="services-modal-description">
-                                <p><strong>Key Features:</strong></p>
-                                    <p>
-                                        <em>Java-Powered Customization:</em> The Pizza Maker App harnesses the capabilities 
-                                        of Java, offering users a robust pizza customization experience. It exemplifies Java's 
-                                        object-oriented programming prowess, enabling a flexible and modular design.
-                                    </p>
-                                    <p>
-                                        <em>Dynamic Cost Computation:</em> Notably, the application provides real-time cost 
-                                        calculation as users customize their pizzas. It efficiently computes the total cost,
-                                         showcasing precise algorithmic implementation.
-                                    </p>
-                                    <p>
-                                        <em>Order Management:</em> The app simplifies the pizza ordering process, requiring 
-                                        users to input their phone number for effective order management.
-                                    </p>
-                                    <p>
-                                        <em>Order History Exploration:</em> Users can effortlessly access their order history, 
-                                        gaining insights into their previous orders. This feature underscores principles of data 
-                                        retrieval and user experience, enhancing overall usability.
-                                    </p>
-                                    <p>
-                                        The Pizza Maker App stands as a testament to the application of Java programming in 
-                                        crafting a sophisticated Android solution. Its focus on data management, algorithmic 
-                                        precision, and user experience reflects a dedication to technical excellence.
-                                    </p>
-                                </p>
-                                <a href="https://github.com/poojapanchal1/PizzaMakerApplication" className='github-icon portfolio-button' target=''>
-                                    <i class="uil uil-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </SwiperSlide>
+                
                 <SwiperSlide className='portfolio-content'>
                     <video src={eBayVid} alt="" className="portfolio-img" controls />
                     <div className="portfolio-data">
@@ -204,6 +153,9 @@ function Portfolio() {
                             More info
                             <i class="uil uil-arrow-right button-icon"></i>
                         </div>
+                        <a href="https://github.com/poojapanchal1/mockEbaySite" className='github-icon portfolio-button' target=''>
+                            <i class="uil uil-github"></i>
+                        </a>
                         <div className={toggleState === 1 ? "portfolio-modal active-modal" : "portfolio-modal"}>
                             <div className="portfolio-modal-content">
                                 <i onClick={() => toggleTab(0)} className='uil uil-times portfolio-modal-close'> 
@@ -241,9 +193,61 @@ function Portfolio() {
                                         resolution and valuable assistance.
                                     </p>    
                                 </p>
-                                <a href="https://github.com/poojapanchal1/mockEbaySite" className='github-icon portfolio-button' target=''>
-                                    <i class="uil uil-github"></i>
-                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </SwiperSlide>
+
+                <SwiperSlide className='portfolio-content'>
+                    <video src={PizzaMakerVid} alt="" className="portfolio-img" controls />
+                    <div className="portfolio-data">
+                        <h3 className="portfolio-title">Pizza Maker Application</h3>
+                        <p className="portfolio-description">The Pizza Maker App is an Android application that demonstrates 
+                        advanced Java programming and object-oriented principles. Developed collaboratively, it emulates a 
+                        virtual pizzeria with sophisticated features, allowing users to customize pizzas, calculate order 
+                        costs, and place orders, with a distinct focus on user data management. View the video to see the 
+                        features in action!</p>
+                        <div className="button button--flex portfolio-button" onClick={()=> toggleTab(1)}>
+                            More info
+                            <i class="uil uil-arrow-right button-icon"></i>
+                        </div>
+                        <a href="https://github.com/poojapanchal1/PizzaMakerApplication" className='github-icon portfolio-button' target=''>
+                            <i class="uil uil-github"></i>
+                        </a>
+                        <div className={toggleState === 1 ? "portfolio-modal active-modal" : "portfolio-modal"}>
+                            <div className="portfolio-modal-content">
+                                <i onClick={() => toggleTab(0)} className='uil uil-times portfolio-modal-close'> 
+                                </i>
+                                <h3 className="portfolio-modal-title"> More Information</h3>
+                                <p className="services-modal-description">
+                                <p><strong>Key Features:</strong></p>
+                                    <p>
+                                        <em>Java-Powered Customization:</em> The Pizza Maker App harnesses the capabilities 
+                                        of Java, offering users a robust pizza customization experience. It exemplifies Java's 
+                                        object-oriented programming prowess, enabling a flexible and modular design.
+                                    </p>
+                                    <p>
+                                        <em>Dynamic Cost Computation:</em> Notably, the application provides real-time cost 
+                                        calculation as users customize their pizzas. It efficiently computes the total cost,
+                                         showcasing precise algorithmic implementation.
+                                    </p>
+                                    <p>
+                                        <em>Order Management:</em> The app simplifies the pizza ordering process, requiring 
+                                        users to input their phone number for effective order management.
+                                    </p>
+                                    <p>
+                                        <em>Order History Exploration:</em> Users can effortlessly access their order history, 
+                                        gaining insights into their previous orders. This feature underscores principles of data 
+                                        retrieval and user experience, enhancing overall usability.
+                                    </p>
+                                    <p>
+                                        The Pizza Maker App stands as a testament to the application of Java programming in 
+                                        crafting a sophisticated Android solution. Its focus on data management, algorithmic 
+                                        precision, and user experience reflects a dedication to technical excellence.
+                                    </p>
+                                </p>
+                                
                             </div>
                         </div>
                     </div>

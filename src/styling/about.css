@@ -33,12 +33,11 @@
     margin-bottom: var(--mb-0-5);
     text-align: center;
     color: var(--text-color);
-    
-
 }
 
 .about-description.skills{
     color: var(--text-color-diff);
+    margin-bottom: 1.5rem;
 }
 
 @media screen and (max-width: 992px) {
